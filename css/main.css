@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  padding-bottom: 75px;
+  min-height: 100%;
+  font-family: 'Noto Serif JP', serif;
+}
+li {
+  list-style: none;
+}
+p, ul {
+  margin: 0;
+  padding: 0;
+}
+div,li {
+  box-sizing: border-box;
+}
+.header_nav {
+  background: linear-gradient(90deg, #fff 20%, rgba(0,0,0,.6) 60%);
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: stretch;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.global_nav_item {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.global_nav_item:hover {
+  background: #fff;
+  color: #42210b;
+}
+.global_nav {
+  display: flex;
+  align-items: stretch;
+}
+.logo {
+  width: 120px;
+  display: flex;
+  align-items: center;
+}
+.logo img{
+  width: 100%;
+  padding: 15px;
+}
+.section_inner {
+  padding: 50px 10% 30px;
+}
+.inner_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(250,227,176, 0.6);
+  padding: 16px;
+  height: 100%;
+}
+.title {
+  display: flex;
+  align-items: center;
+}
+.title_explan {
+  display: flex;
+  justify-content: space-around;
+}
+.title_explan p {
+  width: 60%;
+}
+.title_explan img {
+  width: 35%;
+  border-radius: 45px;
+  box-shadow: inset 0 -3em 3em rgb(0 0 0 / 10%), 0 0 0 2px rgb(255 255 255), 0.3em 0.3em 1em rgb(0 0 0 / 30%);
+}
+.pancake {
+  display: flex;
+  justify-content: space-between;
+}
+.pancake_menu {
+  display: flex;
+  width: 49%;
+}
+
+.pancake img{
+  width: 55%;
+  border-radius: 45px;
+  box-shadow: inset 0 -3em 3em rgb(0 0 0 / 10%), 0 0 0 2px rgb(255 255 255), 0.3em 0.3em 1em rgb(0 0 0 / 30%);
+}
+.pancake_menu ul {
+  margin: 5%; 
+}
+.pancake_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nedan p {
+  display: flex;
+  justify-content: end;
+}
+
+.key {
+  height: 600px;
+  background: center / cover no-repeat url("../images/top_restaurant.jpg");
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+}
+.key h1{
+  font-size: 2.5rem;
+}
+.section_title {
+  font-family: 'Noto Serif JP', serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.menu_title {
+  display: inline-block;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.5rem;
+  color: #42210b;
+  border-bottom: solid #42210b 1px;
+  margin-bottom: 20px;
+}
+
+.center {
+  text-align: center;
+}
+.caffee_menu_image {
+  width: 20%;
+  border-radius: 50%;
+}
+.drink_menu {
+  margin: 20px;
+}
+
+.menu_coffee {
+  display: flex;
+}
+.coffee_text {
+  display: flex;
+  width: 49%;
+  margin: 1%;
+}
+.coffee_text img {
+  width: 20%;
+  margin: 3%;
+  border-radius: 45px;
+  box-shadow: inset 0 -3em 3em rgb(0 0 0 / 10%), 0 0 0 2px rgb(255 255 255), 0.3em 0.3em 1em rgb(0 0 0 / 30%);
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+}
+
+dl {
+  display: flex;
+}
+dt {
+  width: 80px;
+}
+iframe {
+  width: 100%;
+}
+
+footer {
+  background-color: rgb(137,191,209);
+}
+
+nav img {
+  vertical-align: baseline; 
+  width: 80px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.footer li {
+  color: #fff;
+}
+.footer li a {
+  color: #42210b;
+  text-decoration: none;
+}
+.footer_2 {
+  display: flex;
+  justify-content: center;
+  background-color: beige;
+}
+.footer_2 p {
+  color: #42210b;
+  font-size: 0.8%;
+}
