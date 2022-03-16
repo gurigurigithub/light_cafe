@@ -42,6 +42,7 @@ div,li {
 .global_nav_item:hover {
   background: #fff;
   color: #42210b;
+  
 }
 .global_nav {
   display: flex;
